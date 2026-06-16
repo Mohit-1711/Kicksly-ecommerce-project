@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kicksly | Shoe Store</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="https://cdn.hugeicons.com/font/hgi-stroke-rounded.css" />
+
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Miranda+Sans:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- starting top section. -->
+    <div class="header">
+    <div class="container">
+    <div class="navbar">
+       <div class="logo"><a href="index.html">
+        <img src="store images/images/kicksly.png" width="160px">
+       </div></a>
+       <nav>
+        <ul>
+            <li><a href="#brands">Brand</a></li>
+            <li><a href="#featured">Featured</a></li>
+            <li><a href="">Best Deals</a></li>
+            <li><a href="">Account</a></li>
+            
+        </ul>
+       </nav>
+       <div class="cart-icon" style="position:relative; cursor:pointer;"><a href="cart.html">
+  <img src="store images/images/cart.png" width="25px">
+  <span id="cart-count" style="position:absolute; 
+    top:-8px; right:-8px; background:red; color:white;
+    border-radius:50%; width:18px; height:18px; font-size:11px; 
+    display:flex; align-items:center; justify-content:center;">0</span>
+</div>
+</a>
+    </div>
+    <div class="row">
+        <div class="col2">
+            <h1>Find Your Perfect Pair from<br>
+            Top Shoe Brands</h1>
+            <p>Explore curated collections from leading footwear brands. Get<br> exclusive deals, compare prices, and find the perfect shoes for every<br> occasion.</p>
+        
+        </div>
+    </div>
+
+    <div class="search-container">
+        <i class="hgi hgi-stroke hgi-rounded hgi-search-01"></i>
+    <input
+        type="text"
+        id="search-input"
+        placeholder="Search for shoes...">
+    </div>
+    <div id="search-results">
+
+        <!-- this is what i have to write in -->
+    </div>
+
+
+    <div class="buttons">
+             <a href="#featured" class="explore-btn">Shop Now<i class="hgi hgi-stroke hgi-rounded hgi-arrow-right-01"></i></a>
+             <a href="" class="brand-btn">Browse Brands</a>
+        </div>
+    </div>
+    </div>
+    <!-- ended top section. -->
+     <div class="brands-section" id="brands">
+    <h2>Shop by Brand</h2>
+
+    <div class="brands-container">
+        <div class="brand-card" data-brand="ALL">BEST SELLING </div>
+        <div class="brand-card" data-brand="ASICS">ASICS</div>
+        <div class="brand-card" data-brand="NIKE">NIKE</div>
+        <div class="brand-card" data-brand="ADIDAS">ADIDAS</div>
+        <div class="brand-card" data-brand="PUMA">PUMA</div>
+    </div>
+</div>
+
+    <!-- lower part -->
+     <div class="small-container">
+        
+     <div class="categories" id="featured">
+        <h2>Featured Products</h2>
+
+
+        <div class="row" id="products-container">
+
+        </div>
+    </div>
+       
+     </div>
+     </div>
+
+     <div id="product-modal" class="hidden"></div>
+
+      <script src="script.js"></script>
+</body>
+</html>
