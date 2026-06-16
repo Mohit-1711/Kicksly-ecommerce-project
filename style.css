@@ -276,16 +276,108 @@ a{
     display: flex;
     justify-content: center;
     gap: 40px;
-    font-size: 10px;
 }
 .listing{
-    height: 987px;
-    width: 403px;
+    /* height: 980px;
+    width: 404px; */
+
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* centers horizontally */
 }
-.listing p{
+
+
+#brand-text{                  /*brand name*/
     font-size: 20px;
+    color: black;
+    margin-bottom: 4px;
 }
-.product-detail img{
+
+.listing h2{                   /*shoe name*/
+    font-size: 18px;
+    font-weight: 70;
+}
+
+
+
+.listing button{       /* add to cart button */
+    margin: auto;
+    width: 300px;
+    height: 40px;
+    border-radius: 2px;
+    font-size: 16px;
+}
+
+.listing h3{                /*price*/
+    margin-top: 16px;
+    font-size: 24px;
+    font-weight: 70;
+
+}
+.prev{
+    display: flex;
+    font-size: 14px;
+    gap: 4px;
+    align-items: center;
+    justify-content: center;
+}
+
+#mrp{
+    text-decoration: line-through;
+    color: gray;
+    font-weight: 100;
+}
+
+#tax{
+    font-size: 12px;
+    padding: 3px;
+}
+
+.coupon{
+
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+
+.box{
+    display:flex;
+    align-items:center;
+    height:80px;
+    width:326px;
+    border:1px dotted;
+}
+
+.left,
+.right{
+    flex:1;
+    padding:10px;
+}
+.right{
+    font-size: 15px;
+}
+.left{
+    text-align: center;
+}
+
+.divider{
+    width:1px;
+    height:70%;
+    background:black;
+}
+
+.tc{
+    font-size:10px;
+    
+}
+.code{
+    color: darkblue;
+}
+
+
+
+.product-detail img{        /*product image */   
     height: 591px;
     width: 573px;
 }

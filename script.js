@@ -2,65 +2,79 @@ const products = [
   {
     id:1,
     name:"NOVABLAST 5",
-    price:7999,
+    price:3888,
     brand:"ASICS",
     image: "store images/images/asics_novablast.webp",
     category: "Men Running Shoes",
     featured : true,
+    MRP : 7200,
+    discount:46
   },
   {
     id:2,
     name: "GEL-NIMBUS 28",
-    price: 6299,
+    price: 6719,
     brand: "ASICS",
     image: "store images/images/asics_mid.webp",
     category: "Men Running Shoes",
-    featured : true
+    featured : true,
+    MRP : 9599,
+    discount:30
   },
 
   { id:3,
     name: "VOMERO 18",
-    price: 5859,
+    price: 2736,
     brand: "NIKE",
     image: "store images/images/nike vomero 18.jpg",
     category: "Men Running Shoes",
-    featured : true
+    featured : true,
+    MRP : 7599,
+    discount:64
   },
  
   {
     id:4,
     name: "WINDFLO 11",
-    price: 5799,
+    price: 2999,
     brand: "NIKE",
     image: "store images/images/nike_winflo.jpg",
     category: "Men Running Shoes",
-    featured : true
+    featured : true,
+    MRP : 3999,
+    discount:25
   },
   { id:5,
     name: "ULTRABOOST 5",
-    price: 8999,
+    price: 3150,
     brand: "ADIDAS",
     image: "store images/images/adidas ultraboost 5.jpg",
     category: "Men Running Shoes",
-    featured : true
+    featured : true,
+    MRP : 6999,
+    discount:55
   },
    {
     id:6,
     name: "STRUCTURE PLUS",
-    price: 5799,
+    price: 3199,
     brand: "NIKE",
     image: "store images/images/nike_struct.jpg",
     category: "Men Running Shoes",
-    featured : true
+    featured : true,
+    MRP : 3999,
+    discount:20
   },
   
   { id:7,
     name: "MAGIC SPEED 5",
-    price: 6899,
+    price: 3200,
     brand: "ASICS",
     image: "store images/images/magic.jpg",
     category: "Men Running Shoes",
-    featured : true
+    featured : true,
+    MRP : 7999,
+    discount:60
   },
   {
   id: 8,
@@ -68,8 +82,10 @@ const products = [
   brand: "NIKE",
   category: "Men Running Shoes",
   image: "store images/images/pegasus.jpg",
-  price: 6199,
-  featured: false
+  price: 3398,
+  featured: false,
+  MRP : 8495,
+  discount:60
 },
 
 {
@@ -78,8 +94,10 @@ const products = [
   brand: "PUMA",
   category: "Men Running Shoes",
   image: "store images/images/nitro elite.jpg",
-  price: 9999,
-  featured : false
+  price: 3417,
+  featured : false,
+  MRP : 5695,
+  discount:40
 },
 
 {
@@ -88,32 +106,40 @@ const products = [
   brand: "PUMA",
   category: "Men Running Shoes",
    image: "store images/images/nitro.jpg",
-  price: 8499,
-  featured : false
+  price: 3679,
+  featured : false,
+  MRP : 4599,
+  discount:20
 },
   { id:11,
     name: "GALAXY 7",
-    price: 5499,
+    price: 3779,
     brand: "ADIDAS",
     image: "store images/images/galaxy.jpg",
     category: "Men Running Shoes",
-    featured : false
+    featured : false,
+    MRP : 6999,
+    discount:46
   },
   { id:12,
     name: "RUN FALCON 5",
-    price: 2999,
+    price: 3849,
     brand: "ADIDAS",
     image: "store images/images/runfalcon.jpg",
     category: "Men Running Shoes",
-    featured : false
+    featured : false,
+    MRP : 6999,
+    discount:45
   },
   { id:13,
     name: "SKY-ROCKET LITE 2",
-    price: 4799,
+    price: 3919,
     brand: "PUMA",
     image: "store images/images/fade pro.jpg",
     category: "Men Running Shoes",
-    featured : true
+    featured : true,
+    MRP : 5599,
+    discount:30
   },
 ]
 
