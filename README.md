@@ -1,21 +1,25 @@
 # Kicksly — Shoe Ecommerce Store
 
-A multi-page ecommerce website for a shoe store built with vanilla HTML, CSS and JavaScript.
+Kicksly is a multi-page ecommerce website for a shoe store built using HTML, CSS, and JavaScript. The project provides an interactive shopping experience where users can browse products, search for shoes, filter by brand, view product details, and manage a persistent shopping cart.
 
 ## Features
-- It provides an interactive UI, enabling customer to select a shoes from the collection.
-- Allows users to sort the shoes based on the brand.
-- A search bar in order to search for a specific shoe.
-- Provides a preview of the shoes inside the search tray using modal.
-- It has add to cart feature which stores the added shoes and even display the number of items added in the cart while staying at the homepage.
-- User can open product page for more details regarding the shoes.
-- They can open the cart section as well which is able to retain the added cart even after user refreshes the site.
-- User can remove an item from the cart as well.
 
-## Tech Used
-- HTML
-- CSS
--JavaScript
+- Browse a collection of sports and running shoes
+- Search for products using a dynamic search bar
+- Filter shoes by brand
+- Product preview within search results
+- Dedicated product details page
+- Add products to cart
+- Remove products from cart
+- Cart item counter displayed across the website
+- Cart data persists using Local Storage
+
+## Technologies Used
+
+- HTML5
+- CSS3
+- JavaScript
+- Local Storage API
 
 ## Live Demo
 https://kicksly.netlify.app/
