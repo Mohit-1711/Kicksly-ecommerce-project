@@ -8,7 +8,7 @@ productInfo.innerHTML = `
   <img src="${product.image}">
   <div class="listing">
   <p id="brand-text">${product.brand}</p>
-  <h2>${product.name} Running Sports Shoes</h2>
+  <h2>${product.name} ${product.category}</h2>
   <h3>₹${product.price}</h3>
   <div class= "prev">
   <h4 id = "mrp">MRP ₹${product.MRP} </h4>
@@ -18,7 +18,7 @@ productInfo.innerHTML = `
   <div class="box">
     <div class="left">
     <div>Use Code:</div>
-    <strong class="code">NEW25</strong>
+    <strong class="code">KICKSLY25</strong>
     <p class="tc">T&C</p>
 </div>
     <div class="divider"></div>

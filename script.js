@@ -292,14 +292,14 @@ searchResults.innerHTML=html;
 
 function openProduct(product) {
 
-  modal.innerHTML = `
+  modal.innerHTML = `<a href="product.html?id=${product.id}">
     <div class="modal-content">
       <img src="${product.image}" style="width:100%">
       <h2>${product.name}</h2>
       <p>${product.brand}</p>
       <p>${product.category}</p>
       <h3>₹${product.price}</h3>
-    </div>
+    </div></a>
   `;
    modal.style.display = "flex";
 }
